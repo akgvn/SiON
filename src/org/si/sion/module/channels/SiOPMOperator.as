@@ -7,8 +7,7 @@
 package org.si.sion.module.channels {
     import org.si.utils.SLLint;
     import org.si.sion.module.*;
-    
-    
+
     /** SiOPM operator class.
      *  This operator based on the OPM emulation of MAME, but its extended in below points,<br/>
      *  1) You can set the phase offest of pulse generator. <br/>

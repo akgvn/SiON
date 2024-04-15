@@ -6,8 +6,6 @@
 
 package org.si.sion.effector {
     import org.si.sion.sequencer.SiMMLTable;
-    import org.si.utils.SLLint;
-
     
     /** Vowel filter, conbination of 6 peaking filters */
     public class SiFilterVowel extends SiEffectBase

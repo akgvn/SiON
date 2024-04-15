@@ -6,7 +6,6 @@
 
 package org.si.sion.sequencer {
     import flash.system.System;
-    import org.si.utils.SLLint;
     import org.si.sion.sequencer.base.MMLData;
     import org.si.sion.sequencer.base.MMLExecutorConnector;
     import org.si.sion.sequencer.base.MMLSequencer;

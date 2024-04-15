@@ -5,7 +5,6 @@
 //----------------------------------------------------------------------------------------------------
 
 package org.si.sion.sequencer {
-    import org.si.utils.SLLint;
     import org.si.sion.module.SiOPMTable;
     import org.si.sion.module.SiOPMChannelParam;
     import org.si.sion.module.SiOPMOperatorParam;
