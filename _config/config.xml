@@ -1,5 +1,5 @@
 <flex-config>
-  <target-player>10.2</target-player>
+  <target-player>32.0</target-player>
   <static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
 
   <compiler>
@@ -9,10 +9,9 @@
 
     <debug>false</debug>
     <optimize>true</optimize>
-    <incremental>false</incremental>
 
     <external-library-path>
-      <path-element>${flexlib}/libs/player/20.0/playerglobal.swc</path-element>
+      <path-element>${flexlib}/libs/player/32.0/playerglobal.swc</path-element>
     </external-library-path>
     
     <source-path>
@@ -173,12 +172,6 @@
     <class>org.si.sound.events.FlashSoundPlayerEvent</class>
     <class>org.si.sound.events.SoundObjectEvent</class>
     <class>org.si.sound.FlashSoundPlayer</class>
-    <class>org.si.sound.mdx.MDXData</class>
-    <class>org.si.sound.mdx.MDXEvent</class>
-    <class>org.si.sound.mdx.MDXExecutor</class>
-    <class>org.si.sound.mdx.MDXTrack</class>
-    <class>org.si.sound.mdx.PDXData</class>
-    <class>org.si.sound.mdx.PDXDataStorage</class>
     <class>org.si.sound.MMLPlayer</class>
     <class>org.si.sound.MonophonicSynthesizer</class>
     <class>org.si.sound.MultiTrackSoundObject</class>
