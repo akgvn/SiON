@@ -221,7 +221,6 @@
     <class>org.si.sound.synthesizers._synthesizer_internal</class>
     <class>org.si.utils.AbstructLoader</class>
     <class>org.si.utils.ByteArrayExt</class>
-    <class>org.si.utils.FFT</class>
     <class>org.si.utils.SLLint</class>
     <class>org.si.utils.SLLNumber</class>
   </include-classes>
