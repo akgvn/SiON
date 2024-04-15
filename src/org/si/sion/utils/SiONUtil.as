@@ -8,7 +8,6 @@
 package org.si.sion.utils {
     import flash.media.*;
     import flash.utils.ByteArray;
-    //import mx.utils.Base64Decoder;
     import org.si.utils.SLLNumber;
     import org.si.sion.module.SiOPMTable;
     import org.si.sion.module.SiOPMWaveTable;

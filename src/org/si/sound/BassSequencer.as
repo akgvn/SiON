@@ -6,7 +6,6 @@
 
 
 package org.si.sound {
-    import org.si.sion.*;
     import org.si.sion.utils.Chord;
     import org.si.sion.utils.Scale;
     import org.si.sound.patterns.Note;
