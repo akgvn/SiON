@@ -10,7 +10,6 @@ package org.si.sion {
     import org.si.sion.sequencer.SiMMLVoice;
     import org.si.sion.module.ISiOPMWaveInterface;
     import org.si.sion.module.SiOPMTable;
-    import org.si.sion.module.SiOPMChannelParam;
     import org.si.sion.module.SiOPMOperatorParam;
     import org.si.sion.module.SiOPMWaveTable;
     import org.si.sion.module.SiOPMWavePCMData;

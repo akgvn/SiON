@@ -14,7 +14,9 @@ package org.si.sion {
     import flash.utils.getTimer;
     import flash.utils.ByteArray;
     import org.si.utils.SLLint;
-    import org.si.sion.events.*;
+    import org.si.sion.events.SiONEvent;
+    import org.si.sion.events.SiONTrackEvent;
+    import org.si.sion.events.SiONMIDIEvent;
     import org.si.sion.sequencer.base._sion_sequencer_internal;
     import org.si.sion.sequencer.base.MMLSequence;
     import org.si.sion.sequencer.base.MMLEvent;
@@ -26,14 +28,12 @@ package org.si.sion {
     import org.si.sion.module.ISiOPMWaveInterface;
     import org.si.sion.module.SiOPMTable;
     import org.si.sion.module.SiOPMModule;
-    import org.si.sion.module.SiOPMChannelParam;
     import org.si.sion.module.SiOPMWaveTable;
     import org.si.sion.module.SiOPMWavePCMTable;
     import org.si.sion.module.SiOPMWavePCMData;
     import org.si.sion.module.SiOPMWaveSamplerTable;
     import org.si.sion.module.SiOPMWaveSamplerData;
     import org.si.sion.effector.SiEffectModule;
-    import org.si.sion.effector.SiEffectBase;
     import org.si.sion.midi.SiONMIDIEventFlag;
     import org.si.sion.midi.SMFData;
     import org.si.sion.midi.MIDIModule;
