@@ -8,7 +8,6 @@
 package org.si.sound {
     import org.si.sion.*;
     import org.si.sound.synthesizers.*;
-    import org.si.sound.core.EffectChain;
     import org.si.sound.namespaces._sound_object_internal;
     
     
