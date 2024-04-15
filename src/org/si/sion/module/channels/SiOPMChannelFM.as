@@ -6,7 +6,6 @@
 
 package org.si.sion.module.channels {
     import org.si.sion.namespaces._sion_internal;
-    import org.si.utils.SLLNumber;
     import org.si.utils.SLLint;
     import org.si.sion.module.*;
     

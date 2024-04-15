@@ -6,9 +6,7 @@
 
 package org.si.sion.module.channels {
     import flash.utils.ByteArray;
-    import org.si.utils.SLLNumber;
     import org.si.sion.module.*;
-    
     
     /** Sampler pad channel. */
     public class SiOPMChannelSampler extends SiOPMChannelBase

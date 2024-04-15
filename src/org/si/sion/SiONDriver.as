@@ -14,7 +14,6 @@ package org.si.sion {
     import flash.utils.getTimer;
     import flash.utils.ByteArray;
     import org.si.utils.SLLint;
-    import org.si.utils.SLLNumber;
     import org.si.sion.events.*;
     import org.si.sion.sequencer.base._sion_sequencer_internal;
     import org.si.sion.sequencer.base.MMLSequence;
