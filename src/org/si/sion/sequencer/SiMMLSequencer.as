@@ -884,7 +884,8 @@ package org.si.sion.sequencer {
         {
             var tcmdrex:RegExp = /(n88|mdx|psg|mck|tss|%[xv])(\d*)(\s*,?\s*(\d?))/g;
             var res:*, num:Number, i:int;
-            while (res = tcmdrex.exec(dat)) {
+            res = tcmdrex.exec(dat);
+            while (res) {
                 switch(String(res[1])) {
                 case "%v":
                     i = int(res[2]);
@@ -909,6 +910,7 @@ package org.si.sion.sequencer {
                     mmlData.defaultExpressionMode = SiOPMTable.VM_LINEAR;
                     break;
                 }
+                res = tcmdrex.exec(dat);
             }
         }
         

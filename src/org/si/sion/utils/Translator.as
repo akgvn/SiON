@@ -1210,7 +1210,8 @@ package org.si.sion.utils {
             mml = mml.replace(comrex, "") + ";";
             
             // parse system command
-            while (res = seqrex.exec(mml)) {
+            res = seqrex.exec(mml);
+            while (res) {
                 cmd = String(res[1]);
                 if (res[2] != "") {
                     prmrex.lastIndex = 0;
@@ -1224,6 +1225,7 @@ package org.si.sion.utils {
                     pfx = "";
                 }
                 cmds.push({command:cmd, number:num, content:dat, postfix:pfx});
+                res = seqrex.exec(mml);
             }
             return cmds;
         }

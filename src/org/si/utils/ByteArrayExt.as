@@ -208,14 +208,16 @@ package org.si.utils {
         /** read all IFF chunks from current position. */
         public function readAllChunks() : *
         {
-            var header:*, ret:* = {}, pickup:ByteArrayExt;
-            while (header = readChunk(pickup = new ByteArrayExt())) {
+            var ret:* = {}, pickup:ByteArrayExt;
+            var header:* = readChunk(pickup = new ByteArrayExt());
+            while (header) {
                 if (header.chunkID in ret) {
                     if (ret[header.chunkID] is Array) ret[header.chunkID].push(pickup);
                     else ret[header.chunkID] = [ret[header.chunkID]];
                 } else {
                     ret[header.chunkID] = pickup;
                 }
+                header = readChunk(pickup = new ByteArrayExt());
             }
             return ret;
         }
