@@ -185,7 +185,10 @@
                         var flag:uint = 1<<i;
                         if ((keyboardFlag & flag) == 0) {
                             keyboardFlag |= flag;
-                            var trk:SiMMLTrack = driver.noteOn(i+octave*12, currentVoice, 0, 0, 0, 0, 0, 1, 1);
+                            // NOTE(AKG): This was not compiling, removed some parameters. Sound seems to be the same.
+                            // var trk:SiMMLTrack = driver.noteOn(i+octave*12, currentVoice, 0, 0, 0, 0, 0, 1, 1);
+                            var trk:SiMMLTrack = driver.noteOn(i+octave*12, currentVoice);
+
                             trk.channel.setStreamSend(1, delaySendLevel);
                             trk.channel.setStreamSend(2, chorusSendLevel);
                         }
