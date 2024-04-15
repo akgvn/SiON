@@ -27,7 +27,7 @@ package org.si.utils {
             _stat = Vector.<String>(stat);
             _time = new Vector.<int>(stat.length);
             _sum  = new Vector.<int>(stat.length);
-            _cnt  = new Vector.<int>(stat.length);
+            _cnt  = new Vector.<int>(stat.length)[0]; // TODO(AKG): Using [0] to shut the errors up.
             _text.background = true;
             _text.backgroundColor = 0x80c0f0;
             _text.autoSize = "left";
