@@ -38,7 +38,6 @@
 
   <!-- all classes -->
   <include-classes>
-    <class>org.si.midi.MIDIPlayer</class>
     <class>org.si.sion.effector.SiCompositeEffector</class>
     <class>org.si.sion.effector.SiCtrlFilterBase</class>
     <class>org.si.sion.effector.SiCtrlFilterHighPass</class>
