@@ -222,9 +222,7 @@
     <class>org.si.utils.AbstructLoader</class>
     <class>org.si.utils.ByteArrayExt</class>
     <class>org.si.utils.FFT</class>
-    <class>org.si.utils.FFT_original</class>
     <class>org.si.utils.SLLint</class>
     <class>org.si.utils.SLLNumber</class>
-    <class>org.si.utils.timer</class>
   </include-classes>
 </flex-config>
